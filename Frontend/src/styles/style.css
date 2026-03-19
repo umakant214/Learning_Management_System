@@ -1,1 +1,245 @@
+body {
+  background-color: #222529 !important;
+  margin: 0;
+  padding: 0;
+}
+.custom-navbar {
+  background-color: #222529;
+  padding: 10px 20px;
+}
+.logo {
+  height: 35px;
+}
+.category-btn {
+  background-color: #1c2a4a !important;
+  border-radius: 8px !important;
+  margin-left: 15px !important;
+  border: none !important;
+  color: #066ac9 !important;
+  font-weight: 500 !important;
+}
+.navbar-nav .nav-link {
+  color: #cbd5e1;
+  font-weight: 500;
+}
+.navbar-nav .nav-link:hover {
+  color: #066ac9;
+}
+.search-box {
+  position: relative;
+}
+.search-box input {
+  background-color: #111827;
+  border: 1px solid #1f2937;
+  color: white;
+  border-radius: 8px;
+  padding: 6px 35px 6px 10px;
+}
+.search-box input::placeholder {
+  color: #9ca3af;
+}
+.search-icon {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  color: #9ca3af;
+}
+.profile-img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+/* Hero Section  */
+.hero-section {
+  background-color: #222529;
+}
+.hero-title {
+  font-size: 52px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.2;
+}
+.hero-text {
+  color: #9ca3af;
+  margin-top: 15px;
+  font-size: 16px;
+  max-width: 500px;
+}
+.hero-btn {
+  background-color: #d6293e !important;
+  border: none !important;
+  color: #fff !important;
+  border-radius: 8px !important;
+  font-weight: 500 !important;
+}
+.hero-btn:hover {
+  background-color: #b91f32 !important;
+}
+.hero-img {
+  max-width: 100%;
+  margin-top: 0;
+}
+/* @media (max-width: 768px) {
+  .hero-title {
+    font-size: 34px;
+  }
+} */
+/* Counter */
+.counter-card {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 25px;
+  border-radius: 12px;
+  color: white;
+  height: 100%;
+  margin-top: 10px;
+}
+.counter-card .icon {
+  font-size: 40px;
+}
+.bg-yellow {
+  background: #3a2d00;
+}
+.bg-darkblue {
+  background: #1c2430;
+}
+.bg-purple {
+  background: #2d2140;
+}
+.bg-green {
+  background: #1d3b53;
+}
+.counter-card h4 {
+  margin: 0;
+  font-weight: bold;
+}
+.counter-card p {
+  margin: 0;
+  font-size: 14px;
+  opacity: 0.8;
+}
+/* MostPopular Course */
+.custom-card {
+  background: #1e293b;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: 0.3s;
+}
+.custom-card:hover {
+  transform: translateY(-8px);
+}
+.card-img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.badge-green {
+  background-color: #10b981;
+  color: white;
+}
+.badge-purple {
+  background-color: #7c3aed;
+  color: white;
+}
+.rating {
+  color: #facc15;
+  font-size: 18px;
+}
+.rating span {
+  color: #cbd5f5;
+  margin-left: 5px;
+}
+.card-footer-custom {
+  display: flex;
+  justify-content: space-between;
+  color: #94a3b8;
+  font-size: 14px;
+}
+/* Feedback */
+.feedback-section .col-md-6 {
+  min-height: 400px;
+  position: relative;
+}
+.feedback-card {
+  position: absolute;
+  width: 260px;
+  padding: 18px;
+  background: #1e293b;
+  color: white;
+  border-radius: 12px;
+  font-size: 14px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+.card-1 {
+  top: 10px;
+  left: 20px;
+}
+.card-2 {
+  top: 250px;
+  left: 250px;
+}
+.rating-box {
+  position: absolute;
+  bottom: -20px;
+  left: 30px;
+  background: #2563eb;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 12px;
+  text-align: center;
+  width: 140px;
+}
+.user-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.stars {
+  color: #facc15;
+}
+/* Feedback */
 
+/* Footer */
+.footer {
+  background: #1f2630;
+}
+.footer p,
+.footer li {
+  color: #9ca3af;
+  font-size: 14px;
+  cursor: pointer;
+}
+.footer li:hover {
+  color: #fff;
+}
+.social-icon {
+  height: 35px;
+  width: 35px;
+  background: #fff;
+  color: #111827;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.social-icon:hover {
+  background: #f97316;
+  color: #fff;
+}
+.store-btns img {
+  height: 40px;
+  width: auto;
+}
+.footer-bottom {
+  border-top: 1px solid #2c3440;
+}
+.footer-bottom a {
+  color: #9ca3af;
+  text-decoration: none;
+  font-size: 14px;
+}
+.footer-bottom a:hover {
+  color: #fff;
+}
